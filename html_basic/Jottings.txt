@@ -2,3 +2,21 @@
 
 Comments in html is <!-- -->
 <br> is to break sessions
+<p></p> is for a paragraph
+<a></a> anchor is to add hyperlinks
+    it normally contains attributes "href" for adding the hyperlinks
+
+<ul></ul>  is for unordered lists
+<ol></ol> is the ordered lists
+<li></li> is the lists element that goes into the ul or ol tags
+
+<table></table> is to create a table, this covers every other elements of the table listed below
+<thead> is the block of row for the header
+<th> data cell in a table header
+<tbody> is the block of row for the table body
+<tr> row of cell in a table
+<td> data cell in a table
+<tfoot> is the block of row for the table footer
+
+<sup></sup> is for raised to power or superscript
+<sub></sub> is for subscript
