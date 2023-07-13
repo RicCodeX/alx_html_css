@@ -1,5 +1,14 @@
 ///////////////////////////////////////////////HTML///////////////////////////////////////////////////////////
 
+HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images.
+CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors.
+The two languages—HTML and CSS—are independent of one another and should remain that way. 
+CSS should not be written inside of an HTML document and vice versa. As a rule, HTML will always represent content, and CSS will always represent the appearance of that content.
+
+Elements(<a>, <h1>, <p>), tags(<a>...</a>, <h1>...</h1>, <p>...</p>), and attributes(href="" in <a href="http://shayhowe.com/">Shay Howe</a>, id="...", src="...", class="...") are the major HTML terms
+
+Self-Closing Elements <br>, <embed>, <hr>, <img>, <input>, <link>, <meta>, <param>, <source>, <wbr>
+
 Comments in html is <!-- -->
 <br> is to break sessions
 <p></p> is for a paragraph
@@ -24,3 +33,4 @@ Comments in html is <!-- -->
 Linking
     href="https://www.google.com" takes you to another website from your website
     href="#DATA" takes you to a section called DATA in current webpage
+
