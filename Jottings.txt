@@ -34,3 +34,11 @@ Linking
     href="https://www.google.com" takes you to another website from your website
     href="#DATA" takes you to a section called DATA in current webpage
 
+
+
+
+///////////////////////////////////////////////CSS///////////////////////////////////////////////
+
+The most common CSS terms are selectors, properties, values.
+
+A selector designates exactly which element or elements within our HTML to target and apply styles (such as color, size, and position) to e.g p { ... } which argets all paragraph element in the html
