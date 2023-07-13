@@ -20,3 +20,7 @@ Comments in html is <!-- -->
 
 <sup></sup> is for raised to power or superscript
 <sub></sub> is for subscript
+
+Linking
+    href="https://www.google.com" takes you to another website from your website
+    href="#DATA" takes you to a section called DATA in current webpage
