@@ -42,13 +42,53 @@ Linking
 The most common CSS terms are selectors, properties, values.
 
 A selector designates exactly which element or elements within our HTML to target and apply styles 
-(such as color, size, and position) to e.g p { ... } which argets all paragraph element in the html
+    (such as color, size, and position) to e.g p { ... } which argets all paragraph element in the html
 
 Property determines the styles that will be applied to that element. Property names fall after a selector, 
-within the curly brackets, {}, and immediately preceding a colon, :. There are numerous properties we can use, 
-such as background, color, font-size, height, and width, and new properties are often added. 
-e.g p {
-  color: ...;
-  font-size: ...;
-} to all the paragraphs in the html
+    within the curly brackets, {}, and immediately preceding a colon, :. There are numerous properties we can use, 
+    such as background, color, font-size, height, and width, and new properties are often added. 
+    e.g 
+    p {
+      color: ...;
+      font-size: ...;
+    } to all the paragraphs in the html
 
+Now we can determine the behavior of that property with a value. 
+    Values can be identified as the text between the colon, :, and semicolon, ;.
+    e.g 
+    p {
+      color: orange;
+      font-size: 16px;
+    }
+
+Class selector(.)
+    .awesome { ... }
+
+    <div class="awesome">...</div>
+    <p class="awesome">...</p>
+
+Type selector(div, p, h1, ...)
+    div { ... }
+
+    <div>...</div>          
+    <div>...</div>
+
+ID selector(#)
+Regardless of which type of element they appear on, id attribute values can only be used once per page.
+    #shayhowe { ... }
+
+    <div id="shayhowe">...</div>
+
+Referencing CSS
+    In order to get our CSS talking to our HTML, we need to reference our CSS file within our HTML. 
+    The best practice for referencing our CSS is to include all of our styles in a single external style sheet, 
+    which is referenced from within the <head> element of our HTML document. 
+    Using a single external style sheet allows us to use the same styles across an entire website and 
+    quickly make changes sitewide.
+<link> used to define the relationship between the HTML file and the CSS file.
+    <link rel="stylesheet" href="main.css">
+
+Using CSS Resets
+    Every web browser has its own default styles for different elements. 
+    How Google Chrome renders headings, paragraphs, lists, and so forth may be different from how Internet Explorer does. 
+    To ensure cross-browser compatibility, CSS resets have become widely used.
