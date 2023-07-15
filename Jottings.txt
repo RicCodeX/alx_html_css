@@ -92,3 +92,27 @@ Using CSS Resets
     Every web browser has its own default styles for different elements. 
     How Google Chrome renders headings, paragraphs, lists, and so forth may be different from how Internet Explorer does. 
     To ensure cross-browser compatibility, CSS resets have become widely used.
+
+Comments within HTML & CSS
+    Comments help keep our files organized, allow us to set reminders, 
+    and provide a way for us to more effectively manage our code. 
+    Comments become especially useful when there are multiple people 
+    working on the same files.
+    HTML comments start with <!-- and end with -->.
+    CSS comments start with /* and end with */.
+
+Block-level elements
+    <div class="social">
+        <p>I may be found on...</p>
+        <p>Additionally, I have a profile on...</p>
+    </div>
+
+Inline-level elements
+    <p>Soon we'll be <span class="tooltip">writing HTML</span> with the best of them.</p>
+
+Deciding Between <article>, <section>, or <div> Elements
+    Both the <article> and <section> elements contribute to a document’s structure and help to outline a document. 
+    If the content is being grouped solely for styling purposes and doesn’t provide value to the outline of a document, use the <div> element.
+    If the content adds to the document outline and it can be independently redistributed or syndicated, use the <article> element.
+    If the content adds to the document outline and represents a thematic group of content, use the <section> element.
+
