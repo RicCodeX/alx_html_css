@@ -116,3 +116,4 @@ Deciding Between <article>, <section>, or <div> Elements
     If the content adds to the document outline and it can be independently redistributed or syndicated, use the <article> element.
     If the content adds to the document outline and represents a thematic group of content, use the <section> element.
 
+CSS is read from top to bottom i.e Cascading
