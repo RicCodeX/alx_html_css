@@ -17,7 +17,7 @@ Welcome to this HTML Project! This project demonstrates the fundamentals of HTML
 To run this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/RicCodeX/alx_html_css.git`
-2. Navigate to the project directory: `cd simple-html-project`
+2. Navigate to the project directory: `cd html_advanced`
 3. Open the `index.html` file in your web browser.
 
 ## Usage and Examples
