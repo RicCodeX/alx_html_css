@@ -2,7 +2,7 @@
 
 ## Project Title and Description
 
-Welcome to this HTML Project! This project demonstrates the fundamentals of HTML coding by creating a basic website structure. It serves as an excellent starting point for beginners learning HTML or as a quick reference for experienced developers.
+Welcome to this HTML Project! This project is a working progess. This project demonstrates the fundamentals of HTML coding by creating a basic website structure. It serves as an excellent starting point for beginners learning HTML or as a quick reference for experienced developers.
 
 ## Table of Contents
 
