@@ -22,11 +22,12 @@ To run this project locally, follow these steps:
 
 ## Usage and Examples
 
-The project consists of a single HTML file, `index.html`, that represents a basic website structure. Open the `index.html` file in your web browser to view the website.
+The project consists of a single HTML file, `index.html`, that represents the website structure. Open the `index.html` file in your web browser to view the website.
+
+## Folder Structure
 
 Here is an example of the HTML structure:
 
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,3 +56,45 @@ Here is an example of the HTML structure:
     </footer>
 </body>
 </html>
+
+Features and Capabilities
+Responsive design for various screen sizes and devices.
+Use of modern CSS features like Flexbox and CSS Grid Layout.
+Interactive elements powered by JavaScript and event handling.
+Accessibility considerations with proper semantic HTML elements and ARIA attributes.
+Demonstrations of best practices for HTML structuring and styling.
+Folder Structure
+The project is organized as follows:
+.
+├── index.html
+├── css/
+│   ├── styles.css
+│   └── ...
+├── js/
+│   ├── script.js
+│   └── ...
+├── images/
+│   ├── example.jpg
+│   └── ...
+└── ...
+
+## Contributing Guidelines
+
+Contributions to this project are welcome! If you wish to contribute, please follow these guidelines:
+
+Fork the repository and create your branch: git checkout -b feature-branch
+Make your changes and commit them: git commit -m "Add feature"
+Push to the branch: git push origin feature-branch
+Submit a pull request, explaining your changes and their benefits.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Credits and Acknowledgments
+
+Special thanks to Name of ALX for their valuable tutorage
+
+## Contact Information
+
+If you have any questions or suggestions, feel free to contact the project maintainer at mrar0220@gmail.com
