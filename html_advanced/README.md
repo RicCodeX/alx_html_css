@@ -8,7 +8,6 @@ Welcome to this HTML Project! This project demonstrates the fundamentals of HTML
 
 - [Installation](#installation)
 - [Usage and Examples](#usage-and-examples)
-- [Folder Structure](#folder-structure)
 - [Contributing Guidelines](#contributing-guidelines)
 - [License](#license)
 - [Credits and Acknowledgments](#credits-and-acknowledgments)
@@ -25,60 +24,6 @@ To run this project locally, follow these steps:
 ## Usage and Examples
 
 The project consists of a single HTML file, `index.html`, that represents the website structure. Open the `index.html` file in your web browser to view the website.
-
-## Folder Structure
-
-Here is an example of the HTML structure:
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Simple HTML Project</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <h2>About Me</h2>
-        <p>Hello, I am a web developer passionate about HTML!</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Simple HTML Project</p>
-    </footer>
-</body>
-</html>
-
-Features and Capabilities
-Responsive design for various screen sizes and devices.
-Use of modern CSS features like Flexbox and CSS Grid Layout.
-Interactive elements powered by JavaScript and event handling.
-Accessibility considerations with proper semantic HTML elements and ARIA attributes.
-Demonstrations of best practices for HTML structuring and styling.
-Folder Structure
-The project is organized as follows:
-.
-├── index.html
-├── css/
-│   ├── styles.css
-│   └── ...
-├── js/
-│   ├── script.js
-│   └── ...
-├── images/
-│   ├── example.jpg
-│   └── ...
-└── ...
 
 ## Contributing Guidelines
 
