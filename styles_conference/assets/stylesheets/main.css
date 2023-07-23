@@ -72,6 +72,23 @@ table {
   margin: 0px auto;
 }
 
+.col-1-3 {
+  /*
+  we’ll create a three-column reusable layout using inline-block elements.
+  */
+  width: 33.33%;
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-2-3,
+.col-1-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
 /*
   ========================================
   Clearfix
@@ -169,3 +186,4 @@ h1, h3, h4, h5, p {
   padding-bottom: 44px;
   padding-top: 44px;
 }
+
