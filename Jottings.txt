@@ -117,3 +117,36 @@ Deciding Between <article>, <section>, or <div> Elements
     If the content adds to the document outline and represents a thematic group of content, use the <section> element.
 
 CSS is read from top to bottom i.e Cascading
+
+Positioning with floats
+    One way to position elements on a page is with the float property.
+    The float property allows us to take an element, remove it from the normal flow of a page, and position it to the left or right of its parent element.
+    The float property accepts a few values; the two most popular values are left and right, which allow elements to be floated to the left or right of their parent element.
+    When we float an element, we take it out of the normal flow of the HTML document. This causes the width of that element to default to the width of the "content" within it.
+    With two columns we can float one column to the left and another to the right, To position these three <section> elements in a three-column row, instead of floating one 
+    column to the left and one column to the right, we’ll float all three <section> elements to the left. 
+    We can also use inline-block instead of float, for the 3 sections above, we’ll make their display values to inline-block, also giving it the margin and width properties.
+    Unfortunately, because inline-block elements are displayed on the same line as one another, they include a single space between them in order to display all of the <section> 
+    elements on the same row, the white space between each <section> element must be removed.
+        There are a number of ways to remove the space between inline-block elements, we are going to focus on two of the easiest ways, both of which happen inside HTML.
+            The first solution is to put each new <section> element’s opening tag on the same line as the previous <section> element’s closing tag. Rather than using a new line 
+            for each element, we’ll end and begin elements on the same line. 
+            <section>
+                ...
+            </section><section>
+                ...
+            </section><section>
+                ...
+            </section>
+            Another way to remove the white space between inline-block elements is to open an HTML comment directly after an inline-block element’s closing tag. Then, close 
+            the HTML com- ment immediately before the next inline-block element’s opening tag. Doing this allows inline-block elements to begin and end on separate lines of 
+            HTML and “comments out” any potential spaces between the elements. The resulting code would look like this:
+            <section>
+                ...
+            </section><!--
+            --><section>
+                ...
+            </section><!--
+            --><section>
+                ...
+            </section>

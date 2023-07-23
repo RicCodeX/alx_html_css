@@ -73,6 +73,25 @@ table {
 }
 
 /*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
   ======================================================
   Typography
   ======================================================
@@ -109,3 +128,44 @@ h1, h3, h4, h5, p {
   padding: 22px 80px 66px 80px;
 }
 
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+    /*
+      Now that we can contain floats, let’s float the primary <h1> with class logo
+      within the <header> element to the left and allow all of the 
+      other content in the header to wrap to the right of it.
+    */
+  float: left;
+    /*
+      While we’re at it, let’s add a little more detail to our logo. We’ll begin by placing a <br> element, or line break, between the word “Styles” and the word “Conference” to force the text of our logo to sit on two lines.
+      Within the CSS, let’s add a border to the top of our logo and some vertical padding to give the logo breathing room.
+    */
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer small {
+  /*
+  We’ll want to select and float the <small> element to the left.
+  */
+  float: left;
+}
+
+.primary-footer {
+  /*
+  Lastly, let’s put some padding on the top and bottom of the <footer> element to help separate it a little more from the rest of the page.
+  */
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
