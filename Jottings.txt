@@ -151,9 +151,3 @@ Positioning with floats
                 ...
             </section>
 
-
-
-
-
-
-THIS IS TO TEST IF I CAN PROGRAM ON MY PHONE AND PUSH TO GITHUB
