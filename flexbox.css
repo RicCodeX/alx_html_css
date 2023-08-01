@@ -5,11 +5,12 @@ body {
     border: 6px solid black;
     display: flex ;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     /* flex-flow: row nowrap; */
-    /* justify-content: stretch; */
-    /* height: 800px; */
-    align-items: flex-end;
+    justify-content: center;
+    height: 800px;
+    /* align-items: flex-start; */
+    align-content: center;
 }
 .flex-item {
     font-size: 1.5rem;
