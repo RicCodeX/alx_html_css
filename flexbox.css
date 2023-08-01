@@ -4,10 +4,12 @@ body {
 .container {
     border: 6px solid black;
     display: flex ;
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-flow: row nowrap; */
+    /* justify-content: stretch; */
+    /* height: 800px; */
+    align-items: flex-end;
 }
 .flex-item {
     font-size: 1.5rem;
@@ -17,12 +19,15 @@ body {
 }
 .item-1 {
     background-color: rgb(151, 59, 59);
+    /* padding-bottom: 3rem; */
 }
 .item-2 {
     background-color: rgb(24, 240, 132);
+    /* padding-bottom: 5rem; */
 }
 .item-3 {
     background-color: rgb(32, 11, 218);
+    /* font-size: 3rem; */
 }
 .item-4 {
     background-color: rgb(158, 10, 10);
