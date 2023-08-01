@@ -5,12 +5,12 @@ body {
     border: 6px solid black;
     display: flex ;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     /* flex-flow: row nowrap; */
     /* justify-content: center; */
-    height: 800px;
+    /* height: 800px; */
     /* align-items: flex-start; */
-    align-content: space-evenly;
+    /* align-content: space-evenly; */
 }
 .flex-item {
     font-size: 1.5rem;
@@ -28,6 +28,7 @@ body {
 }
 .item-3 {
     background-color: rgb(32, 11, 218);
+    order: 1;
     /* font-size: 3rem; */
 }
 .item-4 {
@@ -41,6 +42,7 @@ body {
 }
 .item-7 {
     background-color: rgb(172, 69, 22);
+    order: 2;
 }
 .item-8 {
     background-color: rgb(108, 0, 112);
