@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.container {
+    border: 6px solid black;
+}
+.flex-item {
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1 {
+    background-color: rgb(151, 59, 59);
+}
+.item-2 {
+    background-color: rgb(24, 240, 132);
+}
+.item-3 {
+    background-color: rgb(32, 11, 218);
+}
+.item-4 {
+    background-color: rgb(158, 10, 10);
+}
+.item-5 {
+    background-color: rgb(10, 223, 205);
+}
+.item-6 {
+    background-color: rgb(230, 197, 13);
+}
+.item-7 {
+    background-color: rgb(172, 69, 22);
+}
+.item-8 {
+    background-color: rgb(108, 0, 112);
+}
+.item-9 {
+    background-color: rgb(250, 160, 57);
+}
