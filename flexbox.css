@@ -29,6 +29,7 @@ body {
 .item-3 {
     background-color: rgb(32, 11, 218);
     order: 1;
+    flex-grow: 2;
     /* font-size: 3rem; */
 }
 .item-4 {
@@ -39,6 +40,7 @@ body {
 }
 .item-6 {
     background-color: rgb(230, 197, 13);
+    flex-grow: 5;
 }
 .item-7 {
     background-color: rgb(172, 69, 22);
