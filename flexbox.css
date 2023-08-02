@@ -9,7 +9,7 @@ body {
     /* flex-flow: row nowrap; */
     /* justify-content: center; */
     height: 400px;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     /* align-content: space-evenly; */
 }
 .flex-item {
@@ -39,12 +39,15 @@ body {
     /* flex-grow: 2; */
     /* font-size: 3rem; */
     /* flex-shrink: 4; */
+    align-self: center;
 }
 .item-4 {
     background-color: rgb(158, 10, 10);
+    align-self: auto;
 }
 .item-5 {
     background-color: rgb(10, 223, 205);
+    align-self: stretch;
 }
 .item-6 {
     background-color: rgb(230, 197, 13);
