@@ -8,7 +8,7 @@ body {
     flex-wrap: nowrap;
     /* flex-flow: row nowrap; */
     /* justify-content: center; */
-    /* height: 800px; */
+    height: 400px;
     /* align-items: flex-start; */
     /* align-content: space-evenly; */
 }
@@ -25,11 +25,13 @@ body {
 .item-1 {
     background-color: rgb(151, 59, 59);
     /* padding-bottom: 3rem; */
+    align-self: flex-start;
 }
 .item-2 {
     background-color: rgb(24, 240, 132);
     /* padding-bottom: 5rem; */
     /* flex-basis: 200px; */
+    align-self: flex-end;
 }
 .item-3 {
     background-color: rgb(32, 11, 218);
