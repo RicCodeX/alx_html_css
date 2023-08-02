@@ -52,10 +52,15 @@ nav ul li:hover {
 */
 .container2 {
     font-size: 1.5rem;
+    display: flex;
 }
 .item1 {
     background-color: firebrick;
+    /* float: left; */
+    /* width: 20%; */
 }
 .item2 {
     background-color: forestgreen;
+    /* float: right; */
+    /* width: 80%; */
 }
