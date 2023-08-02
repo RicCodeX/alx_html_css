@@ -50,3 +50,12 @@ nav ul li:hover {
 /*
 =================VARIABLE HEIGHT=================
 */
+.container2 {
+    font-size: 1.5rem;
+}
+.item1 {
+    background-color: firebrick;
+}
+.item2 {
+    background-color: forestgreen;
+}
