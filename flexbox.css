@@ -19,7 +19,7 @@ body {
     text-align: center;
     /* flex-grow: 1; */
     /* flex-shrink: 0; */
-    width: 8rem;
+    /* flex-basis: auto; */
 }
 .item-1 {
     background-color: rgb(151, 59, 59);
@@ -34,7 +34,7 @@ body {
     /* order: 1; */
     /* flex-grow: 2; */
     /* font-size: 3rem; */
-    flex-shrink: 4;
+    /* flex-shrink: 4; */
 }
 .item-4 {
     background-color: rgb(158, 10, 10);
