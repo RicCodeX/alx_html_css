@@ -28,7 +28,7 @@ body {
 .item-2 {
     background-color: rgb(24, 240, 132);
     /* padding-bottom: 5rem; */
-    flex-basis: 200px;
+    /* flex-basis: 200px; */
 }
 .item-3 {
     background-color: rgb(32, 11, 218);
