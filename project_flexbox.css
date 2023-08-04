@@ -82,3 +82,12 @@ nav ul li:hover {
 .card .body {
     flex: 1;
 }
+hr {
+    border: solid;
+}
+/*
+=================HOLY GRAIL LAYOUT=================
+*/
+section {
+    margin: 2px;
+}
