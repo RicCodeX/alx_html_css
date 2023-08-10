@@ -1,0 +1,36 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header.container {
+  background-color: blue;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  text-align: center;
+  /* align-items: center; */
+}
+
+.nav {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body main section.section-one {
+  background-color: red;
+  margin-top: 100px;
+}
